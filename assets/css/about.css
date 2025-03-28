@@ -1,0 +1,62 @@
+.breadcumb {
+    height: 50vh;
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    padding: 100px;
+    background: url(../images/image-banner2.jpg) no-repeat center;
+    background-size: cover;
+}
+.breadcumb-title {
+    font-size: 3rem;
+    font-weight: 900;
+    color: var(--tertiary-color);
+    text-transform: uppercase;
+}
+.section-numbers {
+    width: 100%;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 3em;
+}
+.numbers-content {
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+    gap: 3em;
+    flex-wrap: wrap;
+}
+
+.card-number {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2em;
+    gap: 1em;
+    min-width: 400px;
+    border-left: 1px solid var(--primary-color);
+}
+.section-bicycles {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+.row-bicycles {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3em;
+    flex-wrap: wrap;
+}
+.row-bicycles img {
+    flex: 1;  
+    height: 400px;
+    min-width: 400px;
+    object-fit: cover;
+}
+.main {
+    padding-bottom: 100px;
+}

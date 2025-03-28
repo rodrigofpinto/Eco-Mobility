@@ -142,7 +142,12 @@ background: var(--primary-color);    border-radius: 1em;
     color: var(--primary-color);
     text-transform: uppercase;
 }
-
+.title-2 {
+    font-size: 2rem;
+    font-weight: 900;
+    color: var(--primary-color);
+    text-transform: uppercase;
+}
 .text {
     font-size: 1.1rem;
     line-height: 1.8em;
